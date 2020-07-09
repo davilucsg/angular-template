@@ -1,6 +1,6 @@
 # angular-template
 
-This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
+This project was based on [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
 version 8.1.1
 
 # Getting started
