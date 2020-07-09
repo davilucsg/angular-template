@@ -1,0 +1,66 @@
+{
+  "generator-ngx-rocket": {
+    "appName": "angular-template",
+    "target": [
+      "web"
+    ],
+    "pwa": true,
+    "mobile": null,
+    "desktop": null,
+    "ui": "bootstrap",
+    "layout": null,
+    "auth": true,
+    "lazy": true,
+    "angulartics": false,
+    "languages": [
+      "en-US",
+      "es-ES"
+    ],
+    "analyticsProvider": null,
+    "googleAnalyticsAccount": null,
+    "tools": [
+      "prettier",
+      "hads",
+      "jest"
+    ],
+    "utility": [
+      "lodash"
+    ],
+    "deploy": "docker",
+    "version": "8.1.1",
+    "props": {
+      "location": "path",
+      "strict": false,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "angular-template",
+      "target": [
+        "web"
+      ],
+      "pwa": true,
+      "ui": "bootstrap",
+      "auth": true,
+      "lazy": false,
+      "angulartics": false,
+      "languages": [
+        "en-US",
+        "es-ES"
+      ],
+      "tools": [
+        "prettier",
+        "hads",
+        "jest"
+      ],
+      "utility": [
+        "lodash"
+      ],
+      "deploy": "docker",
+      "projectName": "angular-template",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": []
+    }
+  }
+}
