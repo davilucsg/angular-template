@@ -7,20 +7,18 @@
     "pwa": true,
     "mobile": null,
     "desktop": null,
-    "ui": "bootstrap",
-    "layout": null,
+    "ui": "material",
+    "layout": "simple",
     "auth": true,
     "lazy": true,
     "angulartics": false,
     "languages": [
-      "en-US",
-      "es-ES"
+      "en-US"
     ],
     "analyticsProvider": null,
     "googleAnalyticsAccount": null,
     "tools": [
       "prettier",
-      "hads",
       "jest"
     ],
     "utility": [
@@ -40,17 +38,16 @@
         "web"
       ],
       "pwa": true,
-      "ui": "bootstrap",
+      "ui": "material",
+      "layout": "simple",
       "auth": true,
-      "lazy": false,
+      "lazy": true,
       "angulartics": false,
       "languages": [
-        "en-US",
-        "es-ES"
+        "en-US"
       ],
       "tools": [
         "prettier",
-        "hads",
         "jest"
       ],
       "utility": [

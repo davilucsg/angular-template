@@ -8,8 +8,7 @@ import { I18nService } from './i18n.service';
   styleUrls: ['./language-selector.component.scss'],
 })
 export class LanguageSelectorComponent implements OnInit {
-  @Input() inNavbar = false;
-  @Input() menuClass = '';
+  @Input() icon = false;
 
   constructor(private i18nService: I18nService) {}
 

@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 import enUS from '../../translations/en-US.json';
-import esES from '../../translations/es-ES.json';
 
 const languageKey = 'language';
 
@@ -28,7 +27,6 @@ export class I18nService {
   constructor(private translateService: TranslateService) {
     // Embed languages to avoid extra HTTP requests
     translateService.setTranslation('en-US', enUS);
-    translateService.setTranslation('es-ES', esES);
   }
 
   /**

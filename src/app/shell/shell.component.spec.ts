@@ -1,7 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { TranslateModule } from '@ngx-translate/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MaterialModule } from '@app/material.module';
 
 import { CoreModule } from '@core';
 import { AuthenticationService, CredentialsService } from '@app/auth';
@@ -18,7 +20,15 @@ describe('ShellComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule, TranslateModule.forRoot(), I18nModule, NgbModule, CoreModule],
+      imports: [
+        RouterTestingModule,
+        TranslateModule.forRoot(),
+        I18nModule,
+        BrowserAnimationsModule,
+        FlexLayoutModule,
+        MaterialModule,
+        CoreModule,
+      ],
       providers: [
         { provide: AuthenticationService, useClass: MockAuthenticationService },
         { provide: CredentialsService, useClass: MockCredentialsService },

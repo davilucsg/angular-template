@@ -56,7 +56,6 @@ Task                            | Description
 `npm run e2e`                   | Run e2e tests using [Protractor](http://www.protractortest.org)
 `npm run lint`                  | Lint code
 `npm run translations:extract`  | Extract strings from code and templates to `src/app/translations/template.json`
-`npm run docs`                  | Display project documentation and coding guides
 `npm run prettier`              | Automatically format all `.ts`, `.js` & `.scss` files
 
 When building the application, you can specify the target configuration using the additional flag
@@ -112,15 +111,14 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - End-to-end tests using [Protractor](https://github.com/angular/protractor)
 - Static code analysis: [TSLint](https://github.com/palantir/tslint), [Codelyzer](https://github.com/mgechev/codelyzer),
   [Stylelint](http://stylelint.io) and [HTMLHint](http://htmlhint.com/)
-- Local knowledgebase server using [Hads](https://github.com/sinedied/hads)
 - Automatic code formatting with [Prettier](https://prettier.io)
 
 #### Libraries
 
 - [Angular](https://angular.io)
-- [Bootstrap 4](https://getbootstrap.com)
-- [ng-bootsrap](https://ng-bootstrap.github.io/)
-- [Font Awesome](http://fontawesome.io)
+- [Angular Material](https://material.angular.io)
+- [Angular Flex Layout](https://github.com/angular/flex-layout)
+- [Material Icons](https://material.io/icons/)
 - [RxJS](http://reactivex.io/rxjs)
 - [ngx-translate](https://github.com/ngx-translate/core)
 - [Lodash](https://lodash.com)

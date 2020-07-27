@@ -135,7 +135,7 @@
         "deploy": {
           "builder": "ngx-deploy-docker:deploy",
           "options": {
-            "account": "blaxlucas"
+            "account": "blaxlucas@gmail.com"
           }
         }
       }
